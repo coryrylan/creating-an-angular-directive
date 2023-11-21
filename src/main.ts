@@ -14,9 +14,9 @@ import { SnippetsDirective } from './snippets.directive';
       <a href="https://coryrylan.com/blog/creating-an-angular-directive">Tutorial at coryrylan.com</a>
     </p>
 
-    <p>Type <code>lorem</code> for lorem ipsum</p>
-    <p>Type <code>zombie</code> for zombie ipsum</p>
-    <p>Type <code>bacon</code> for bacon ipsum</p>
+    <p>Type <code>lorem\`</code> for lorem ipsum</p>
+    <p>Type <code>zombie\`</code> for zombie ipsum</p>
+    <p>Type <code>bacon\`</code> for bacon ipsum</p>
 
     <textarea [appSnippets]="mySnippets"></textarea>
   `,
